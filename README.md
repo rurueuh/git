@@ -1,8 +1,10 @@
 # labyrinth-sfml
 
 install SFML:
+
 ubuntu : `sudo apt install libsfml-dev && sudo apt install g++`
-ubuntu : `sudo dnf install SFML && sudo dnf install gcc-c++`
+
+debian : `sudo dnf install SFML && sudo dnf install gcc-c++`
 
 compile project:
 `g++ *.cpp -lsfml-graphics -lsfml-window -lsfml-system`
